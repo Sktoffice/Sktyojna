@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>संपर्क करें - SKT Yojna</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+
+    .top-bar {
+      background-color: red;
+      color: white;
+      text-align: center;
+      padding: 8px;
+      font-weight: bold;
+    }
+
+    .nav-bar {
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-links a, .home-btn a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: darkred;
+    }
+
+    form {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkgreen;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔴 Top Red Bar -->
+  <div class="top-bar">
+    🔔 Welcome to SKT Yojna – सरकारी योजनाओं की जानकारी सबसे पहले
+  </div>
+
+  <!-- ⚫ Black Navigation Bar -->
+  <div class="nav-bar">
+    <div class="nav-links">
+      <a href="#">PM Kisan</a>
+      <a href="#">Yojana List</a>
+      <a href="#">PM Awas</a>
+      <a href="#">Scholarship</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="home-btn">
+      <a href="#">🏠 Home</a>
+    </div>
+  </div>
+
+  <!-- 📞 Contact Form -->
+  <div class="container">
+    <h1>हमसे संपर्क करें</h1>
+    <p style="text-align:center;">यदि आपके पास कोई सवाल है या आप संपर्क करना चाहते हैं, तो नीचे फॉर्म भरें।</p>
+
+    <form>
+      <label>आपका नाम:</label>
+      <input type="text" placeholder="अपना पूरा नाम लिखें" required>
+
+      <label>ईमेल:</label>
+      <input type="email" placeholder="आपका ईमेल" required>
+
+      <label>संदेश:</label>
+      <textarea rows="5" placeholder="अपना संदेश यहाँ लिखें..." required></textarea>
+
+      <button type="submit">भेजें</button>
+    </form>
+  </div>
+
+  <!-- 🔻 Footer -->
+  <footer>
+    © 2025 SKT Yojna. सभी अधिकार सुरक्षित।
+  </footer>
+
+</body>
+</html>
